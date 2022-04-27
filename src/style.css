@@ -7,3 +7,26 @@ body{
     border: 0px;
     padding: 20px;
 }
+.galeria img, 
+.flip img, 
+.flash img {
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*
+.galeria {
+ background-image: url('../src/images/camera-gallery.jpg');
+}
+
+.flip {
+    background-image: url('../src/images/camera-flip.png');
+}
+
+.flash {
+    background-image: url('../src/images/camera-flash.png');
+}
+*/
