@@ -1,12 +1,9 @@
 body{
-    background-color: aquamarine;
+    background-color: #eee;
 }
-.botao{
-    background-color: #ff0000;
-    color: #ffffff;
-    border: 0px;
-    padding: 20px;
-}
+
+
+/*
 .galeria img, 
 .flip img, 
 .flash img {
@@ -17,7 +14,7 @@ body{
     background-position: center;
 }
 
-/*
+
 .galeria {
  background-image: url('../src/images/camera-gallery.jpg');
 }
