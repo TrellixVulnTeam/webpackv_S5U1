@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import './test.scss';
+import FlipImg from './images/flip.png';
 import Botao from './components/botao/index.js';
 
 $(function(){
