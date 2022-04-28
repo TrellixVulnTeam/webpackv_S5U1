@@ -4,6 +4,11 @@ class Botao {
 
     constructor(){
         this.title = '';
+        this.callback = function(){};
+    }
+    
+    setclick(f){
+        this.callback = f;
     }
 
     setTitle(t){
@@ -11,9 +16,12 @@ class Botao {
     }
 
     render(){
-        return `
-          <button class="botao">`+this.title+`</button>
-        `;
+        let b = document.createElement('button');
+        b.classList.add('botao');
+        b.innerHTML = this.title;
+        b.addEventListener('click', this.callback);
+
+        return b;
     }
 }
 
